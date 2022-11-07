@@ -6,9 +6,9 @@
 				<p class="text-muted"> &copy 2021 Khadi Attire </p>
 			</div>
 			<div class="col-md-8 text-md-center">
-				<span  class="px-2">khadiattrie@gmail.com</span>
+				<span  class="px-2">khadiattire@gmail.com</span>
 				<span  class="px-2">+91-9518107268</span>
-				<span  class="px-2">Sector-13 Hisar Haryana</span>
+				<span  class="px-2">Sector-13, Hisar, Haryana</span>
 			</div>
 			<div class="col-md-2 text-md-right text-muted">
 				<i class="fab fa-lg fa-cc-visa"></i>
@@ -19,3 +19,15 @@
 	</div><!-- //container -->
 </footer>
 <!-- ========================= FOOTER END // ========================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.thumb a').click(function(e){
+			e.preventDefault();
+			$('.mainImage img').attr('src', $(this).attr("href"));
+		})
+	})
+</script>
+
+</body>
+</html>
