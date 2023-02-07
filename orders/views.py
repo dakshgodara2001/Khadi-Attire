@@ -8,6 +8,9 @@ import json
 from store.models import Product
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
+from django.conf import settings
+from django.core.mail import send_mail
+
 
 # Create your views here.
 
@@ -65,9 +68,11 @@ def payments(request):
         'user': request.user,
         'order': order,
     })
-    to_email = request.user.email
-    send_email = EmailMessage(mail_subject, message, to=[to_email])
-    send_email.send()
+    to_email = [request.user.email, ]
+    #send_email = EmailMessage(mail_subject, message, to=[to_email])
+    #send_email.send()
+    email_from = settings.EMAIL_HOST_USER
+    send_mail(mail_subject, message, email_from, to_email)
 
     # Send order number and transaction id back to sendData method via JsonResponse
     data = {
