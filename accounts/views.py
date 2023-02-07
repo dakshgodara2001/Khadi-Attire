@@ -5,6 +5,8 @@ from orders.models import Order, OrderProduct
 from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
+from django.conf import settings
+from django.core.mail import send_mail
 
 from django.contrib.sites.shortcuts import get_current_site
 from django.template.loader import render_to_string
@@ -54,8 +56,11 @@ def register(request):
                 'token': default_token_generator.make_token(user),
             })
             to_email = email
-            send_email = EmailMessage(mail_subject, message, to=[to_email])
-            send_email.send()
+            #send_email = EmailMessage(mail_subject, message, to=[to_email])
+            #send_email.send()
+            email_from = settings.EMAIL_HOST_USER
+            send_mail(mail_subject, message, email_from, to_email)
+
             return redirect('/accounts/login/?command=verification&email='+email)
 
     else:
@@ -182,8 +187,10 @@ def forgotPassword(request):
                 'token': default_token_generator.make_token(user),
             })
             to_email = email
-            send_email = EmailMessage(mail_subject, message, to=[to_email])
-            send_email.send()
+            #send_email = EmailMessage(mail_subject, message, to=[to_email])
+            #send_email.send()
+            email_from = settings.EMAIL_HOST_USER
+            send_mail(mail_subject, message, email_from, to_email)
 
             messages.success(request, 'Password reset email has been sent to your email address.')
             return redirect('login')
