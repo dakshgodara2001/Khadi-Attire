@@ -41,6 +41,6 @@ These instructions will get you a copy of the project up and running on your loc
 - [PayPal](https://paypal.com/) - Payment gateway
 
 
-##Author
+## Author
 
 [Daksh Godara](https://github.com/dakshgodara2001)
