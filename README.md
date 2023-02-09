@@ -1,5 +1,16 @@
 # Khadi-Attire
-An e-commerce platform to sell khadi products online.
+
+A Django-based e-commerce website for selling khadi products online.
+
+## Features
+
+- User authentication and authorization
+- Product catalog and search
+- Shopping cart and checkout
+- Order management and tracking
+- Customer account management
+- Admin interface for managing products and orders
+
 
 ## Getting Started
 
