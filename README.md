@@ -39,3 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [Django](https://www.djangoproject.com/) - The web framework used
 - [Bootstrap](https://getbootstrap.com/) - Front-end component library
 - [PayPal](https://paypal.com/) - Payment gateway
+
+##Author
+
+[Daksh Godara]()
