@@ -2,6 +2,16 @@
 
 A Django-based e-commerce website for selling khadi products online.
 
+
+
+
+
+https://user-images.githubusercontent.com/52131905/227198368-ef7448ee-1765-4084-b2c9-0c285cf3326d.mp4
+
+
+
+
+
 <p align="center">
   <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.10.46%20PM.png" width = "500" >
   <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.11.09%20PM.png" width = "500" >
