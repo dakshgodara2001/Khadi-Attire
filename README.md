@@ -5,9 +5,9 @@ A Django-based e-commerce website for selling khadi products online.
 
 
 
-
+<p align="center">
 https://user-images.githubusercontent.com/52131905/227198368-ef7448ee-1765-4084-b2c9-0c285cf3326d.mp4
-
+</p>
 
 
 
