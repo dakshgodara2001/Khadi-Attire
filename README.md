@@ -5,25 +5,14 @@ A Django-based e-commerce website for selling khadi products online.
 
 
 
-<p align="center">
+
 https://user-images.githubusercontent.com/52131905/227198368-ef7448ee-1765-4084-b2c9-0c285cf3326d.mp4
-</p>
 
 
 
 
 <p align="center">
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.10.46%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.11.09%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.11.22%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.11.31%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.12.06%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.12.31%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.12.49%20PM.png" width = "500" >
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.12.56%20PM.png" width="500">
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.13.22%20PM.png" width="500">  
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.13.40%20PM.png" width="500">
-  <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.13.49%20PM.png" width="500">
+  
   <img src="https://github.com/dakshgodara2001/Khadi-Attire/blob/main/images/Screen%20Shot%202023-02-10%20at%202.15.49%20PM.png" width="500">
 </p>
 
